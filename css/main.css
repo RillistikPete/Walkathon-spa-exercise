@@ -1,0 +1,23 @@
+button {
+	margin: 20px 20px 0 20px;
+}
+
+.stripe {
+	background-color: forestgreen;
+}
+
+.cheese {
+	background-color: lightgray;
+}
+
+table {
+	background-color: lightgray;
+}
+
+form {
+	text-align: center;
+}
+
+body {
+	background: linear-gradient(to right, white, blue);
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Walk-A-Thon Donation</title>
+	<link rel="stylesheet" type="text/css" href="lib/node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+		<h1 style="text-align: center;">Walk-A-Tron 9000</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+						<form class="panel cheese panel-default">
+							<fieldset>
+								<legend>Donation Form</legend>
+								Full Name:  <input type="text" id="fullname"><br>
+								Email:	<input type="text" id="email"><br>
+								Dollar Amount:<input type="text" id="amount"><br>
+								<input type="checkbox" id="lump" value="lump-sum">Lump Sum <br>
+								<input type="checkbox" id="perlap" value="per-lap">Per Lap <br>
+							</fieldset>
+						</form>
+						<div id="buttonDiv" style="text-align:center;">
+							<button class="btn btn-primary" id="cancel">Cancel</button>
+							<button class="btn btn-primary" id="donate">Donate</button>
+						</div>
+			</div>
+			<div class="col-sm-6">
+					<table class="table table-inverse panel panel-default cheese">
+						  <thead>
+				    		<tr>
+				      			<th>#</th>
+				      			<th>Full Name</th>
+				      			<th>Email</th>
+				      			<th>Dollar Amount</th>
+				      			<th>Type</th>
+							<tbody>
+								<tr class="stripe"><th scope="row">1</th>
+									<td id="name"></td>
+									<td id="emailTd"></td>
+									<td id="pledge"></td>
+									<td id="type"></td>
+								</tr>
+								<tr><th scope="row">2</th></tr>
+								<tr class="stripe"><th scope="row">3</th></tr>
+								<tr><th scope="row">4</th></tr>
+							</tbody>
+					</table>
+			</div>
+		</div>
+	</div>
+		<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+		<script src="IIFE.js"></script>
+		<script src="main.js"></script>
+</body>
+</html>
