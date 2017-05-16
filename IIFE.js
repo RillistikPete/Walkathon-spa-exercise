@@ -10,7 +10,7 @@ var Donor = (function (){
 
 			addDonor: function(){
 				donorPerson.name = $("#fullname").val();
-				console.log("fuck this");
+				console.log("this");
 				donorPerson.pledge = $("#amount").val();
 				if ($("#lump").prop("checked")){
 					donorPerson.type = "Lump Sum";
